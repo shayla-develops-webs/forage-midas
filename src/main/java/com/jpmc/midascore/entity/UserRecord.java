@@ -43,4 +43,9 @@ public class UserRecord {
     public void setBalance(float balance) {
         this.balance = balance;
     }
+
+    public UserRecord orElseThrow(Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'orElseThrow'");
+    }
 }
